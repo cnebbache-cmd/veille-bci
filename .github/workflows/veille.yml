@@ -1,0 +1,46 @@
+name: Veille reglementaire BCI
+
+on:
+  schedule:
+    - cron: "0 9 * * 5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dependances
+        run: pip install -r requirements.txt
+
+      - name: Generer le digest, mettre a jour veille.json et envoyer l'email
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO:   ${{ secrets.MAIL_TO }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python veille_bci.py
+
+      - name: Committer veille.json si de nouveaux elements ont ete detectes
+        run: |
+          git config user.name "veille-bci-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet -- veille.json; then
+            git add veille.json
+            git commit -m "Veille automatique : mise a jour de veille.json ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "Aucun changement dans veille.json."
+          fi
