@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Veille reglementaire et juridique BCI",
+  "description": "Schema du fichier veille.json consomme par la plateforme web statique.",
+  "type": "object",
+  "required": ["meta", "elements"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "titre": { "type": "string" },
+        "schema_version": { "type": "string" },
+        "avertissement": { "type": ["string", "null"] },
+        "derniere_generation_automatique": { "type": ["string", "null"], "format": "date" }
+      }
+    },
+    "elements": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/element" }
+    }
+  },
+  "definitions": {
+    "element": {
+      "type": "object",
+      "required": [
+        "id", "titre", "date_publication", "autorite", "resume_court",
+        "priorite", "statut", "lien_source", "date_ajout", "date_maj", "resume_valide"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Identifiant stable. Prefixe AUTO- pour les items generes par veille_bci.py, libre pour une saisie manuelle."
+        },
+        "donnee_fictive": {
+          "type": "boolean",
+          "description": "true uniquement pour les exemples de demonstration fournis avec la plateforme. A ne jamais utiliser pour un vrai element."
+        },
+        "titre": { "type": "string" },
+        "date_publication": { "type": "string", "format": "date" },
+        "autorite": {
+          "type": "string",
+          "description": "Liste de base : AMF, ACPR, CAA Luxembourg, CSSF, TRACFIN, ESMA, EIOPA, EBA, Legifrance / JORF, EUR-Lex, ORIAS, CNCGP. Extensible si une nouvelle source est ajoutee.",
+          "examples": [
+            "AMF", "ACPR", "CAA Luxembourg", "CSSF", "TRACFIN",
+            "ESMA", "EIOPA", "EBA", "Legifrance / JORF", "EUR-Lex", "ORIAS", "CNCGP"
+          ]
+        },
+        "type_acte": {
+          "type": ["string", "null"],
+          "enum": [
+            null, "reglement", "directive", "decret", "arrete", "instruction",
+            "position", "recommandation", "ligne_directrice", "qa",
+            "consultation", "communique", "decision_sanction"
+          ]
+        },
+        "domaines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "LCB-FT", "CIF / MiFID II", "DDA", "POG", "SFDR / durabilite",
+              "RGPD", "protection_clientele", "demarchage", "IA / AI Act",
+              "prudentiel", "fiscalite"
+            ]
+          }
+        },
+        "perimetre": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["CIF", "COA", "France", "Luxembourg", "FIC", "assurance-vie", "mandataires MIA"]
+          }
+        },
+        "resume_court": { "type": "string", "description": "1 a 2 phrases." },
+        "explication_detaillee": { "type": "string" },
+        "analyse_impact_bci": { "type": "string" },
+        "priorite": { "type": "string", "enum": ["eleve", "moyen", "faible"] },
+        "statut": { "type": "string", "enum": ["a_analyser", "en_cours", "traite", "sans_impact"] },
+        "date_echeance": { "type": ["string", "null"], "format": "date" },
+        "actions_a_mener": { "type": "array", "items": { "type": "string" } },
+        "procedures_impactees": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^BCI-[A-Z0-9]+-[A-Z0-9]+-[0-9]+$" },
+          "description": "Codes de la forme BCI-[DOMAINE]-[TYPE]-[NUMERO], ex. BCI-LCBFT-PROC-002."
+        },
+        "lien_source": { "type": "string", "format": "uri" },
+        "date_ajout": { "type": "string", "format": "date" },
+        "date_maj": { "type": "string", "format": "date" },
+        "resume_valide": {
+          "type": "boolean",
+          "description": "false = resume/analyse generes ou non relus, a valider par la conformite. true = contenu relu et valide."
+        },
+        "origine": { "type": "string", "enum": ["automatique", "manuelle"] }
+      }
+    }
+  }
+}

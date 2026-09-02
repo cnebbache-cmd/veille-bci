@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "titre": "Veille reglementaire et juridique - Boetie Capital Invest",
+    "schema_version": "1.0",
+    "avertissement": "Ce fichier est le jeu de donnees de la plateforme de veille BCI. Les elements portant \"donnee_fictive\": true sont des EXEMPLES FICTIFS fournis uniquement pour demontrer la mise en page de la plateforme : ils doivent etre supprimes ou remplaces par de vrais elements avant toute utilisation en production. Ne jamais s'appuyer sur leur contenu pour une decision de conformite.",
+    "derniere_generation_automatique": "2026-09-02"
+  },
+  "elements": [
+    {
+      "id": "AUTO-8C5EAD8A1B",
+      "titre": "Net assets of UCIs according to SFDR",
+      "date_publication": "2026-09-01",
+      "autorite": "CSSF",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [
+        "Luxembourg"
+      ],
+      "resume_court": "Situation as at 31 July 2026",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.cssf.lu/en/Document/net-assets-of-ucis-according-to-sfdr/",
+      "date_ajout": "2026-09-02",
+      "date_maj": "2026-09-02",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-07B481FE03",
+      "titre": "CELEX:32026R1119: Règlement délégué (UE) 2026/1119 de la Commission du 26 mai 2026 complétant le règlement (UE) 2024/3005 du Parlement européen et du Conseil par des normes techniques de réglementation précisant les informations devant figurer dans la demande d’agrément en tant que fournisseur de notations ESG et dans la demande de reconnaissance d’un fournisseur de notations ESG",
+      "date_publication": "2026-08-31",
+      "autorite": "EUR-Lex",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:32026R1119",
+      "date_ajout": "2026-09-02",
+      "date_maj": "2026-09-02",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-A710F72586",
+      "titre": "Circular CSSF 26/915",
+      "date_publication": "2026-08-27",
+      "autorite": "CSSF",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [
+        "Luxembourg"
+      ],
+      "resume_court": "on the applicability of the Digital Operational Resililience Act (DORA) to third-country branches in Luxembourg",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.cssf.lu/en/Document/circular-cssf-26-915/",
+      "date_ajout": "2026-09-02",
+      "date_maj": "2026-09-02",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-412231AF11",
+      "titre": "Circular CSSF 25/893 (as amended by Circular CSSF 26/915) (Updated)",
+      "date_publication": "2026-08-26",
+      "autorite": "CSSF",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [
+        "Luxembourg"
+      ],
+      "resume_court": "on reporting of major ICT-related incidents and significant cyber threats under the Digital Operational Resilience Act (DORA)",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.cssf.lu/en/Document/circular-cssf-25-893/",
+      "date_ajout": "2026-09-02",
+      "date_maj": "2026-09-02",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-97027636E5",
+      "titre": "Circular CSSF 25/882 (as amended by Circular CSSF 26/915) (Updated)",
+      "date_publication": "2026-08-26",
+      "autorite": "CSSF",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [
+        "Luxembourg"
+      ],
+      "resume_court": "on requirements on the use of ICT third-party services for Financial Entities subject to the Digital Operational Resilience Act (DORA)",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.cssf.lu/en/Document/circular-cssf-25-882/",
+      "date_ajout": "2026-09-02",
+      "date_maj": "2026-09-02",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-89E77462B0",
+      "titre": "CELEX:32026R1216: Règlement délégué (UE) 2026/1216 de la Commission du 9 juin 2026 modifiant le règlement (UE) 2024/1257 du Parlement européen et du Conseil en ce qui concerne la fixation de multiplicateurs de durabilité pour les polluants gazeux émis par les véhicules utilitaires lourds des catégories M3, N2 et N3",
+      "date_publication": "2026-08-12",
+      "autorite": "EUR-Lex",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:32026R1216",
+      "date_ajout": "2026-09-02",
+      "date_maj": "2026-09-02",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-127607B343",
+      "titre": "EBA E-mail alert 6 August, 2026",
+      "date_publication": "2026-08-06",
+      "autorite": "EBA",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "EBA E-mail alert 6 August, 2026 Date 06/08/2026 Anonymous (not verified) Thu, 08/06/2026 - 17:45 News & Press EBA ESG risk dashboard shows stable climate risk exposures and continued improvements in data quality",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.eba.europa.eu/node/19929",
+      "date_ajout": "2026-09-02",
+      "date_maj": "2026-09-02",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-6E39A98F11",
+      "titre": "EBA, EIOPA and ESMA call for enhanced governance and consistent supervision to mitigate ICT risks from frontier AI models in the EU financial sector",
+      "date_publication": "2026-09-02",
+      "autorite": "ESMA",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "EBA, EIOPA and ESMA call for enhanced governance and consistent supervision to mitigate ICT risks from frontier AI models in the EU financial sector 31 July 2026 Digital Finance and Innovation Joint Committee The...",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.esma.europa.eu/press-news/esma-news/eba-eiopa-and-esma-call-enhanced-governance-and-consistent-supervision",
+      "date_ajout": "2026-09-02",
+      "date_maj": "2026-09-02",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-5C77CB49FA",
+      "titre": "ESMA publishes latest edition of its newsletter",
+      "date_publication": "2026-09-02",
+      "autorite": "ESMA",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "ESMA publishes latest edition of its newsletter 31 July 2026 ESMA newsletter The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today the latest...",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-44",
+      "date_ajout": "2026-09-02",
+      "date_maj": "2026-09-02",
+      "resume_valide": false,
+      "origine": "automatique"
+    }
+  ]
+}
