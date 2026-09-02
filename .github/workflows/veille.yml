@@ -1,12 +1,14 @@
 name: Veille reglementaire BCI
 
+# Execution automatique chaque vendredi a 09:00 UTC (11h Paris en ete, 10h en hiver).
+# Cron GitHub est toujours en UTC. Ajuster l'heure ici si besoin.
 on:
   schedule:
     - cron: "0 9 * * 5"
-  workflow_dispatch:
+  workflow_dispatch:        # permet aussi un lancement manuel depuis l'onglet Actions
 
 permissions:
-  contents: write
+  contents: write            # necessaire pour committer veille.json mis a jour
 
 jobs:
   veille:
@@ -23,7 +25,11 @@ jobs:
       - name: Installer les dependances
         run: pip install -r requirements.txt
 
-      - name: Generer le digest, mettre a jour veille.json et envoyer l'email
+      # L'envoi email est optionnel : si SMTP_USER / SMTP_PASS / MAIL_TO ne sont
+      # pas configures en secrets, veille.json est quand meme mis a jour (mode
+      # --dry-run), seul l'envoi de l'email est saute. Le site ne depend jamais
+      # de ces secrets.
+      - name: Mettre a jour veille.json et envoyer l'email si configure
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -31,7 +37,13 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_TO:   ${{ secrets.MAIL_TO }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python veille_bci.py
+        run: |
+          if [ -n "$SMTP_USER" ] && [ -n "$SMTP_PASS" ] && [ -n "$MAIL_TO" ]; then
+            python veille_bci.py
+          else
+            echo "Secrets email non configures (SMTP_USER/SMTP_PASS/MAIL_TO) : mise a jour de veille.json uniquement, pas d'envoi d'email."
+            python veille_bci.py --dry-run
+          fi
 
       - name: Committer veille.json si de nouveaux elements ont ete detectes
         run: |
