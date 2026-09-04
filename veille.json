@@ -3,7 +3,7 @@
     "titre": "Veille reglementaire et juridique - Boetie Capital Invest",
     "schema_version": "1.0",
     "avertissement": "Ce fichier est le jeu de donnees de la plateforme de veille BCI. Les elements portant \"donnee_fictive\": true sont des EXEMPLES FICTIFS fournis uniquement pour demontrer la mise en page de la plateforme : ils doivent etre supprimes ou remplaces par de vrais elements avant toute utilisation en production. Ne jamais s'appuyer sur leur contenu pour une decision de conformite.",
-    "derniere_generation_automatique": "2026-09-02"
+    "derniere_generation_automatique": "2026-09-04"
   },
   "elements": [
     {
@@ -199,7 +199,7 @@
     {
       "id": "AUTO-6E39A98F11",
       "titre": "EBA, EIOPA and ESMA call for enhanced governance and consistent supervision to mitigate ICT risks from frontier AI models in the EU financial sector",
-      "date_publication": "2026-09-02",
+      "date_publication": "2026-09-04",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -218,14 +218,14 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/eba-eiopa-and-esma-call-enhanced-governance-and-consistent-supervision",
       "date_ajout": "2026-09-02",
-      "date_maj": "2026-09-02",
+      "date_maj": "2026-09-04",
       "resume_valide": false,
       "origine": "automatique"
     },
     {
       "id": "AUTO-5C77CB49FA",
       "titre": "ESMA publishes latest edition of its newsletter",
-      "date_publication": "2026-09-02",
+      "date_publication": "2026-09-04",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -244,7 +244,7 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-44",
       "date_ajout": "2026-09-02",
-      "date_maj": "2026-09-02",
+      "date_maj": "2026-09-04",
       "resume_valide": false,
       "origine": "automatique"
     }
