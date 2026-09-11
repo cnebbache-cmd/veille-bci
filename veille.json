@@ -3,7 +3,7 @@
     "titre": "Veille reglementaire et juridique - Boetie Capital Invest",
     "schema_version": "1.0",
     "avertissement": "Ce fichier est le jeu de donnees de la plateforme de veille BCI. Les elements portant \"donnee_fictive\": true sont des EXEMPLES FICTIFS fournis uniquement pour demontrer la mise en page de la plateforme : ils doivent etre supprimes ou remplaces par de vrais elements avant toute utilisation en production. Ne jamais s'appuyer sur leur contenu pour une decision de conformite.",
-    "derniere_generation_automatique": "2026-09-04"
+    "derniere_generation_automatique": "2026-09-11"
   },
   "elements": [
     {
@@ -199,7 +199,7 @@
     {
       "id": "AUTO-6E39A98F11",
       "titre": "EBA, EIOPA and ESMA call for enhanced governance and consistent supervision to mitigate ICT risks from frontier AI models in the EU financial sector",
-      "date_publication": "2026-09-04",
+      "date_publication": "2026-09-11",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -218,14 +218,14 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/eba-eiopa-and-esma-call-enhanced-governance-and-consistent-supervision",
       "date_ajout": "2026-09-02",
-      "date_maj": "2026-09-04",
+      "date_maj": "2026-09-11",
       "resume_valide": false,
       "origine": "automatique"
     },
     {
       "id": "AUTO-5C77CB49FA",
       "titre": "ESMA publishes latest edition of its newsletter",
-      "date_publication": "2026-09-04",
+      "date_publication": "2026-09-11",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -244,7 +244,86 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-44",
       "date_ajout": "2026-09-02",
-      "date_maj": "2026-09-04",
+      "date_maj": "2026-09-11",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-09AAA0087C",
+      "titre": "Update of the statement of 30 August 2024 on the joint controllership arrangement between the Commission de Surveillance du Secteur Financier (CSSF) and the European Banking Authority (EBA) with regards to the 'EuReCA' Central Database for the reporting of anti-money laundering and counter-terrorist financing (AML/CFT) weaknesses in order to take into account Regulation (EU) 2024/1620 of the European Parliament and of the Council of 31 May 2024 establishing the Authority for Anti-Money Laundering and Countering the Financing of Terrorism (AMLA) (Updated)",
+      "date_publication": "2026-09-11",
+      "autorite": "CSSF",
+      "type_acte": null,
+      "domaines": [
+        "LCB-FT"
+      ],
+      "perimetre": [
+        "Luxembourg"
+      ],
+      "resume_court": "",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.cssf.lu/en/Document/statement-on-the-joint-controllership-arrangement-between-the-cssf-and-the-eba-with-regards-to-the-eureca-central-database-for-the-reporting-of-aml-cft-weaknesses/",
+      "date_ajout": "2026-09-11",
+      "date_maj": "2026-09-11",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-1AD29DC89E",
+      "titre": "L’AMF publie la synthèse de ses contrôles SPOT sur les enregistrements des conversations téléphoniques des sociétés de gestion",
+      "date_publication": "2026-09-10",
+      "autorite": "AMF",
+      "type_acte": null,
+      "domaines": [
+        "CIF / MiFID II",
+        "demarchage"
+      ],
+      "perimetre": [
+        "France"
+      ],
+      "resume_court": "Gestion d'actifs L’AMF publie la synthèse de ses contrôles SPOT sur les enregistrements des conversations téléphoniques des sociétés de gestion",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-la-synthese-de-ses-controles-spot-sur-les-enregistrements-des-conversations#xts=607212&xtor=RSS-11&type=RSS",
+      "date_ajout": "2026-09-11",
+      "date_maj": "2026-09-11",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-932B0CED2F",
+      "titre": "Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism",
+      "date_publication": "2026-09-11",
+      "autorite": "ESMA",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism 10 September 2026 Press Releases Risk monitoring The European Securities and Markets Authority (ESMA), the EU’s financial markets...",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.esma.europa.eu/press-news/esma-news/ongoing-geopolitical-and-economic-vulnerabilities-masked-strong-investor",
+      "date_ajout": "2026-09-11",
+      "date_maj": "2026-09-11",
       "resume_valide": false,
       "origine": "automatique"
     }
