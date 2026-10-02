@@ -3,13 +3,13 @@
     "titre": "Veille reglementaire et juridique - Boetie Capital Invest",
     "schema_version": "1.0",
     "avertissement": "Ce fichier est le jeu de donnees de la plateforme de veille BCI. Les elements portant \"donnee_fictive\": true sont des EXEMPLES FICTIFS fournis uniquement pour demontrer la mise en page de la plateforme : ils doivent etre supprimes ou remplaces par de vrais elements avant toute utilisation en production. Ne jamais s'appuyer sur leur contenu pour une decision de conformite.",
-    "derniere_generation_automatique": "2026-09-25"
+    "derniere_generation_automatique": "2026-10-02"
   },
   "elements": [
     {
       "id": "AUTO-8C5EAD8A1B",
       "titre": "Net assets of UCIs according to SFDR",
-      "date_publication": "2026-09-01",
+      "date_publication": "2026-09-29",
       "autorite": "CSSF",
       "type_acte": null,
       "domaines": [
@@ -20,7 +20,7 @@
       "perimetre": [
         "Luxembourg"
       ],
-      "resume_court": "Situation as at 31 July 2026",
+      "resume_court": "Situation as at 31 August 2026",
       "explication_detaillee": "",
       "analyse_impact_bci": "",
       "priorite": "moyen",
@@ -30,7 +30,7 @@
       "procedures_impactees": [],
       "lien_source": "https://www.cssf.lu/en/Document/net-assets-of-ucis-according-to-sfdr/",
       "date_ajout": "2026-09-02",
-      "date_maj": "2026-09-02",
+      "date_maj": "2026-10-02",
       "resume_valide": false,
       "origine": "automatique"
     },
@@ -304,7 +304,7 @@
     {
       "id": "AUTO-932B0CED2F",
       "titre": "Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism",
-      "date_publication": "2026-09-25",
+      "date_publication": "2026-10-02",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -323,7 +323,7 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/ongoing-geopolitical-and-economic-vulnerabilities-masked-strong-investor",
       "date_ajout": "2026-09-11",
-      "date_maj": "2026-09-25",
+      "date_maj": "2026-10-02",
       "resume_valide": false,
       "origine": "automatique"
     },
@@ -513,7 +513,7 @@
     {
       "id": "AUTO-DE333DC1EE",
       "titre": "ESMA sets new supervisory priority on digital innovation from 2027",
-      "date_publication": "2026-09-25",
+      "date_publication": "2026-10-02",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -532,7 +532,33 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-new-supervisory-priority-digital-innovation-2027",
       "date_ajout": "2026-09-25",
-      "date_maj": "2026-09-25",
+      "date_maj": "2026-10-02",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-E61A2D9850",
+      "titre": "ESMA sets 2027 priorities for stronger, simpler and more integrated EU capital markets",
+      "date_publication": "2026-10-02",
+      "autorite": "ESMA",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "ESMA sets 2027 priorities for stronger, simpler and more integrated EU capital markets 28 September 2026 About ESMA Press Releases Simplification and Burden Reduction The European Securities and Markets Authority...",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-2027-priorities-stronger-simpler-and-more-integrated-eu-capital",
+      "date_ajout": "2026-10-02",
+      "date_maj": "2026-10-02",
       "resume_valide": false,
       "origine": "automatique"
     }
