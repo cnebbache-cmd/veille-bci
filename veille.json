@@ -3,7 +3,7 @@
     "titre": "Veille reglementaire et juridique - Boetie Capital Invest",
     "schema_version": "1.0",
     "avertissement": "Ce fichier est le jeu de donnees de la plateforme de veille BCI. Les elements portant \"donnee_fictive\": true sont des EXEMPLES FICTIFS fournis uniquement pour demontrer la mise en page de la plateforme : ils doivent etre supprimes ou remplaces par de vrais elements avant toute utilisation en production. Ne jamais s'appuyer sur leur contenu pour une decision de conformite.",
-    "derniere_generation_automatique": "2026-10-09"
+    "derniere_generation_automatique": "2026-10-16"
   },
   "elements": [
     {
@@ -720,6 +720,190 @@
       "lien_source": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-prononce-le-retrait-dagrement-de-la-societe-de-gestion-de-portefeuille-eurasia-asset-management#xts=607212&xtor=RSS-11&type=RSS",
       "date_ajout": "2026-10-09",
       "date_maj": "2026-10-09",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-2157FFA14D",
+      "titre": "Préparation des prochains états de durabilité : l'AMF attire l’attention des sociétés cotées sur les recommandations 2026 de l'ESMA",
+      "date_publication": "2026-10-14",
+      "autorite": "AMF",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [
+        "France"
+      ],
+      "resume_court": "Info périodique & permanente Finance durable Préparation des prochains états de durabilité : l'AMF attire l’attention des sociétés cotées sur les recommandations 2026 de l'ESMA",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.amf-france.org/fr/actualites-publications/actualites/preparation-des-prochains-etats-de-durabilite-lamf-attire-lattention-des-societes-cotees-sur-les#xts=607212&xtor=RSS-11&type=RSS",
+      "date_ajout": "2026-10-16",
+      "date_maj": "2026-10-16",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-AC397F7A47",
+      "titre": "CELEX:32026R1753R(01): Rectificatif au règlement délégué (UE) 2026/1753 de la Commission du 13 juillet 2026 modifiant le règlement (UE) 2018/858 du Parlement européen et du Conseil en ce qui concerne les prescriptions en matière de performances environnementales et d’émissions pour la durabilité des batteries embarquées, les émissions de particules de frein, la puissance du système des véhicules électriques, l’autonomie des véhicules électriques à basse température pour les véhicules produits en séries illimitées et les véhicules à usage spécial, et mettant à jour la liste, figurant dans la partie II de l’annexe II du règlement (UE) 2018/858, des règlements de l’ONU reconnus comme des mesures alternatives (JO L, 2026/1753, 24.9.2026)",
+      "date_publication": "2026-10-13",
+      "autorite": "EUR-Lex",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:32026R1753R(01)",
+      "date_ajout": "2026-10-16",
+      "date_maj": "2026-10-16",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-BFF28902F5",
+      "titre": "AMLA invites stakeholders to sectoral roundtables on simplified customer due diligence",
+      "date_publication": "2026-10-12",
+      "autorite": "CSSF",
+      "type_acte": null,
+      "domaines": [
+        "LCB-FT"
+      ],
+      "perimetre": [
+        "Luxembourg"
+      ],
+      "resume_court": "",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.cssf.lu/en/2026/10/amla-invites-stakeholders-to-sectoral-roundtables-on-simplified-customer-due-diligence/",
+      "date_ajout": "2026-10-16",
+      "date_maj": "2026-10-16",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-FD6C7852E7",
+      "titre": "Conseillers en investissements financiers (CIF) : chiffres clés 2025",
+      "date_publication": "2026-10-12",
+      "autorite": "AMF",
+      "type_acte": null,
+      "domaines": [
+        "CIF / MiFID II",
+        "demarchage"
+      ],
+      "perimetre": [
+        "France"
+      ],
+      "resume_court": "Conseil en investissement Gestion d'actifs Conseillers en investissements financiers (CIF) : chiffres clés 2025",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.amf-france.org/fr/actualites-publications/actualites/conseillers-en-investissements-financiers-cif-chiffres-cles-2025#xts=607212&xtor=RSS-11&type=RSS",
+      "date_ajout": "2026-10-16",
+      "date_maj": "2026-10-16",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-5535CEA87C",
+      "titre": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime",
+      "date_publication": "2026-10-16",
+      "autorite": "ESMA",
+      "type_acte": null,
+      "domaines": [
+        "CIF / MiFID II",
+        "demarchage"
+      ],
+      "perimetre": [],
+      "resume_court": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime 15 October 2026 Trading The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, has...",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-updates-its-manual-transparency-new-guidance-otc-derivatives-and-tick",
+      "date_ajout": "2026-10-16",
+      "date_maj": "2026-10-16",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-8BF49E95E6",
+      "titre": "European Supervisory Authorities set priorities for 2027",
+      "date_publication": "2026-10-16",
+      "autorite": "ESMA",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "European Supervisory Authorities set priorities for 2027 13 October 2026 Joint Committee The Joint Committee of the European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) published today its Annual Work...",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.esma.europa.eu/press-news/esma-news/european-supervisory-authorities-set-priorities-2027",
+      "date_ajout": "2026-10-16",
+      "date_maj": "2026-10-16",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-8052712F9C",
+      "titre": "ESMA promotes clarity in claims on impact and transition",
+      "date_publication": "2026-10-16",
+      "autorite": "ESMA",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "ESMA promotes clarity in claims on impact and transition 12 October 2026 Sustainable finance The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published two...",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-claims-impact-and-transition",
+      "date_ajout": "2026-10-16",
+      "date_maj": "2026-10-16",
       "resume_valide": false,
       "origine": "automatique"
     }
