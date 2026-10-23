@@ -3,7 +3,7 @@
     "titre": "Veille reglementaire et juridique - Boetie Capital Invest",
     "schema_version": "1.0",
     "avertissement": "Ce fichier est le jeu de donnees de la plateforme de veille BCI. Les elements portant \"donnee_fictive\": true sont des EXEMPLES FICTIFS fournis uniquement pour demontrer la mise en page de la plateforme : ils doivent etre supprimes ou remplaces par de vrais elements avant toute utilisation en production. Ne jamais s'appuyer sur leur contenu pour une decision de conformite.",
-    "derniere_generation_automatique": "2026-10-16"
+    "derniere_generation_automatique": "2026-10-23"
   },
   "elements": [
     {
@@ -904,6 +904,102 @@
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-claims-impact-and-transition",
       "date_ajout": "2026-10-16",
       "date_maj": "2026-10-16",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-069479F0AE",
+      "titre": "CELEX:32026R2354: Règlement d’exécution (UE) 2026/2354 de la Commission du 16 octobre 2026 concernant les formats de communication d’informations sur les bénéficiaires effectifs",
+      "date_publication": "2026-10-21",
+      "autorite": "EUR-Lex",
+      "type_acte": null,
+      "domaines": [
+        "LCB-FT"
+      ],
+      "perimetre": [],
+      "resume_court": "",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:32026R2354",
+      "date_ajout": "2026-10-23",
+      "date_maj": "2026-10-23",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-B708F63CD2",
+      "titre": "CELEX:32026D2356: Décision (UE) 2026/2356 du Conseil du 13 octobre 2026 relative à la signature du protocole additionnel à la convention du Conseil de l’Europe relative au blanchiment, au dépistage, à la saisie et à la confiscation des produits du crime et au financement du terrorisme, en ce qui concerne les mesures de lutte contre le blanchiment des capitaux",
+      "date_publication": "2026-10-20",
+      "autorite": "EUR-Lex",
+      "type_acte": null,
+      "domaines": [
+        "LCB-FT"
+      ],
+      "perimetre": [],
+      "resume_court": "",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:32026D2356",
+      "date_ajout": "2026-10-23",
+      "date_maj": "2026-10-23",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-52A12ACC8D",
+      "titre": "CELEX:32026D2355: Décision (UE) 2026/2355 du Conseil du 13 octobre 2026 relative à la signature du protocole additionnel à la convention du Conseil de l’Europe relative au blanchiment, au dépistage, à la saisie et à la confiscation des produits du crime et au financement du terrorisme, en ce qui concerne la coopération judiciaire en matière pénale et la coopération policière",
+      "date_publication": "2026-10-20",
+      "autorite": "EUR-Lex",
+      "type_acte": null,
+      "domaines": [
+        "LCB-FT"
+      ],
+      "perimetre": [],
+      "resume_court": "",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:32026D2355",
+      "date_ajout": "2026-10-23",
+      "date_maj": "2026-10-23",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-86A069FF2C",
+      "titre": "CELEX:52026M12540: Notification préalable d’une concentration (Affaire M.12540 — AP EJENDOMME / CAPMAN AIFM / COPENHAGEN TOWERS HOTEL / SCANDIC WEBERS) — Cas susceptible d’être traité selon la procédure simplifiée",
+      "date_publication": "2026-10-19",
+      "autorite": "EUR-Lex",
+      "type_acte": null,
+      "domaines": [],
+      "perimetre": [
+        "FIC"
+      ],
+      "resume_court": "",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:52026M12540",
+      "date_ajout": "2026-10-23",
+      "date_maj": "2026-10-23",
       "resume_valide": false,
       "origine": "automatique"
     }
