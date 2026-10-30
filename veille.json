@@ -3,7 +3,7 @@
     "titre": "Veille reglementaire et juridique - Boetie Capital Invest",
     "schema_version": "1.0",
     "avertissement": "Ce fichier est le jeu de donnees de la plateforme de veille BCI. Les elements portant \"donnee_fictive\": true sont des EXEMPLES FICTIFS fournis uniquement pour demontrer la mise en page de la plateforme : ils doivent etre supprimes ou remplaces par de vrais elements avant toute utilisation en production. Ne jamais s'appuyer sur leur contenu pour une decision de conformite.",
-    "derniere_generation_automatique": "2026-10-23"
+    "derniere_generation_automatique": "2026-10-30"
   },
   "elements": [
     {
@@ -833,7 +833,7 @@
     {
       "id": "AUTO-5535CEA87C",
       "titre": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime",
-      "date_publication": "2026-10-16",
+      "date_publication": "2026-10-30",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -851,7 +851,7 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-updates-its-manual-transparency-new-guidance-otc-derivatives-and-tick",
       "date_ajout": "2026-10-16",
-      "date_maj": "2026-10-16",
+      "date_maj": "2026-10-30",
       "resume_valide": false,
       "origine": "automatique"
     },
@@ -1000,6 +1000,58 @@
       "lien_source": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:52026M12540",
       "date_ajout": "2026-10-23",
       "date_maj": "2026-10-23",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-6F14B90E91",
+      "titre": "L'AMF publie la synthèse de ses contrôles SPOT sur les communications aux clients concernant les SCPI",
+      "date_publication": "2026-10-29",
+      "autorite": "AMF",
+      "type_acte": null,
+      "domaines": [
+        "CIF / MiFID II",
+        "demarchage"
+      ],
+      "perimetre": [
+        "France"
+      ],
+      "resume_court": "Commercialisation Placements collectifs Supervision L'AMF publie la synthèse de ses contrôles SPOT sur les communications aux clients concernant les SCPI",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-la-synthese-de-ses-controles-spot-sur-les-communications-aux-clients-concernant-les-scpi#xts=607212&at_medium=RSS feeds&at_campaign=Actualités&type=RSS",
+      "date_ajout": "2026-10-30",
+      "date_maj": "2026-10-30",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-B95A78327E",
+      "titre": "ESMA streamlines several Q&As as part of simplification efforts",
+      "date_publication": "2026-10-30",
+      "autorite": "ESMA",
+      "type_acte": null,
+      "domaines": [
+        "CIF / MiFID II",
+        "demarchage"
+      ],
+      "perimetre": [],
+      "resume_court": "ESMA streamlines several Q&As as part of simplification efforts 22 October 2026 Market Abuse MiFID - Secondary Markets Short Selling Simplification and Burden Reduction The European Securities and Markets Authority...",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-streamlines-several-qas-part-simplification-efforts",
+      "date_ajout": "2026-10-30",
+      "date_maj": "2026-10-30",
       "resume_valide": false,
       "origine": "automatique"
     }
