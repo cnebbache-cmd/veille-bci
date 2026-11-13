@@ -3,7 +3,7 @@
     "titre": "Veille reglementaire et juridique - Boetie Capital Invest",
     "schema_version": "1.0",
     "avertissement": "Ce fichier est le jeu de donnees de la plateforme de veille BCI. Les elements portant \"donnee_fictive\": true sont des EXEMPLES FICTIFS fournis uniquement pour demontrer la mise en page de la plateforme : ils doivent etre supprimes ou remplaces par de vrais elements avant toute utilisation en production. Ne jamais s'appuyer sur leur contenu pour une decision de conformite.",
-    "derniere_generation_automatique": "2026-11-06"
+    "derniere_generation_automatique": "2026-11-13"
   },
   "elements": [
     {
@@ -833,7 +833,7 @@
     {
       "id": "AUTO-5535CEA87C",
       "titre": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime",
-      "date_publication": "2026-11-06",
+      "date_publication": "2026-11-13",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -851,7 +851,7 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-updates-its-manual-transparency-new-guidance-otc-derivatives-and-tick",
       "date_ajout": "2026-10-16",
-      "date_maj": "2026-11-06",
+      "date_maj": "2026-11-13",
       "resume_valide": false,
       "origine": "automatique"
     },
@@ -1033,7 +1033,7 @@
     {
       "id": "AUTO-B95A78327E",
       "titre": "ESMA streamlines several Q&As as part of simplification efforts",
-      "date_publication": "2026-11-06",
+      "date_publication": "2026-11-13",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -1051,7 +1051,7 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-streamlines-several-qas-part-simplification-efforts",
       "date_ajout": "2026-10-30",
-      "date_maj": "2026-11-06",
+      "date_maj": "2026-11-13",
       "resume_valide": false,
       "origine": "automatique"
     },
@@ -1078,6 +1078,32 @@
       "lien_source": "https://www.amf-france.org/fr/actualites-publications/evenements-de-lamf/colloques-et-conferences-de-lamf/webinaire-lutte-contre-le-blanchiment-des-capitaux-et-le-financement-du-terrorisme#xts=607212&at_medium=RSS feeds&at_campaign=Evénements de l'AMF&type=RSS",
       "date_ajout": "2026-11-06",
       "date_maj": "2026-11-06",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-2B409B9227",
+      "titre": "OPSG Advice on ESG Integration in European IORPs: Benefits, Challenges and Emerging Practices",
+      "date_publication": "2026-11-13",
+      "autorite": "EIOPA",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [],
+      "resume_court": "Advice on ESG Integration in European IORPs: Benefits, Challenges and Emerging Practices",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.eiopa.europa.eu/publications/opsg-advice-esg-integration-european-iorps-benefits-challenges-and-emerging-practices_en",
+      "date_ajout": "2026-11-13",
+      "date_maj": "2026-11-13",
       "resume_valide": false,
       "origine": "automatique"
     }
