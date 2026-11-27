@@ -3,7 +3,7 @@
     "titre": "Veille reglementaire et juridique - Boetie Capital Invest",
     "schema_version": "1.0",
     "avertissement": "Ce fichier est le jeu de donnees de la plateforme de veille BCI. Les elements portant \"donnee_fictive\": true sont des EXEMPLES FICTIFS fournis uniquement pour demontrer la mise en page de la plateforme : ils doivent etre supprimes ou remplaces par de vrais elements avant toute utilisation en production. Ne jamais s'appuyer sur leur contenu pour une decision de conformite.",
-    "derniere_generation_automatique": "2026-11-20"
+    "derniere_generation_automatique": "2026-11-27"
   },
   "elements": [
     {
@@ -833,7 +833,7 @@
     {
       "id": "AUTO-5535CEA87C",
       "titre": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime",
-      "date_publication": "2026-11-20",
+      "date_publication": "2026-11-27",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -851,7 +851,7 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-updates-its-manual-transparency-new-guidance-otc-derivatives-and-tick",
       "date_ajout": "2026-10-16",
-      "date_maj": "2026-11-20",
+      "date_maj": "2026-11-27",
       "resume_valide": false,
       "origine": "automatique"
     },
@@ -1033,7 +1033,7 @@
     {
       "id": "AUTO-B95A78327E",
       "titre": "ESMA streamlines several Q&As as part of simplification efforts",
-      "date_publication": "2026-11-20",
+      "date_publication": "2026-11-27",
       "autorite": "ESMA",
       "type_acte": null,
       "domaines": [
@@ -1051,7 +1051,7 @@
       "procedures_impactees": [],
       "lien_source": "https://www.esma.europa.eu/press-news/esma-news/esma-streamlines-several-qas-part-simplification-efforts",
       "date_ajout": "2026-10-30",
-      "date_maj": "2026-11-20",
+      "date_maj": "2026-11-27",
       "resume_valide": false,
       "origine": "automatique"
     },
@@ -1184,6 +1184,190 @@
       "lien_source": "https://www.amf-france.org/fr/actualites-publications/evenements-de-lamf/colloques-et-conferences-de-lamf/webinaire-preparer-son-reporting-csrd#xts=607212&at_medium=RSS feeds&at_campaign=Evénements de l'AMF&type=RSS",
       "date_ajout": "2026-11-20",
       "date_maj": "2026-11-20",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-F119F5D6E7",
+      "titre": "AMLA publishes report on cooperation in AML/CFT supervisory colleges",
+      "date_publication": "2026-11-27",
+      "autorite": "CSSF",
+      "type_acte": null,
+      "domaines": [
+        "LCB-FT"
+      ],
+      "perimetre": [
+        "Luxembourg"
+      ],
+      "resume_court": "AMLA",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.cssf.lu/en/Document/amla-publishes-report-on-cooperation-in-aml-cft-supervisory-colleges/",
+      "date_ajout": "2026-11-27",
+      "date_maj": "2026-11-27",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-E4D8E8BF18",
+      "titre": "Public consultation by AMLA on the methodology for setting AML/CFT fines",
+      "date_publication": "2026-11-27",
+      "autorite": "CSSF",
+      "type_acte": null,
+      "domaines": [
+        "LCB-FT"
+      ],
+      "perimetre": [
+        "Luxembourg"
+      ],
+      "resume_court": "AMLA",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.cssf.lu/en/Document/public-consultation-by-amla-on-the-methodology-for-setting-aml-cft-fines/",
+      "date_ajout": "2026-11-27",
+      "date_maj": "2026-11-27",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-43EE2AEAE0",
+      "titre": "Public consultation Draft Guidelines on outsourcing, reliance on customer due diligence performed by another obliged entity and other third-party arrangements",
+      "date_publication": "2026-11-27",
+      "autorite": "CSSF",
+      "type_acte": null,
+      "domaines": [
+        "LCB-FT"
+      ],
+      "perimetre": [
+        "Luxembourg"
+      ],
+      "resume_court": "AMLA",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.cssf.lu/en/Document/public-consultation-draft-guidelines-on-outsourcing-reliance-on-customer-due-diligence-performed-by-another-obliged-entity-and-other-third-party-arrangements/",
+      "date_ajout": "2026-11-27",
+      "date_maj": "2026-11-27",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-37D93FC110",
+      "titre": "CELEX:52026M12540(01): Non-opposition à une concentration notifiée (Affaire M.12540 — AP EJENDOMME / CAPMAN AIFM / COPENHAGEN TOWERS HOTEL / SCANDIC WEBERS)",
+      "date_publication": "2026-11-26",
+      "autorite": "EUR-Lex",
+      "type_acte": null,
+      "domaines": [],
+      "perimetre": [
+        "FIC"
+      ],
+      "resume_court": "",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:52026M12540(01)",
+      "date_ajout": "2026-11-27",
+      "date_maj": "2026-11-27",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-356E9CC62C",
+      "titre": "Reporting de durabilité des entreprises : entrée en vigueur des nouvelles normes ESRS simplifiées",
+      "date_publication": "2026-11-25",
+      "autorite": "AMF",
+      "type_acte": null,
+      "domaines": [
+        "RGPD",
+        "SFDR / durabilite",
+        "prudentiel"
+      ],
+      "perimetre": [
+        "France"
+      ],
+      "resume_court": "Finance durable Info périodique & permanente Reporting de durabilité des entreprises : entrée en vigueur des nouvelles normes ESRS simplifiées",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.amf-france.org/fr/actualites-publications/actualites/reporting-de-durabilite-des-entreprises-entree-en-vigueur-des-nouvelles-normes-esrs-simplifiees#xts=607212&at_medium=RSS feeds&at_campaign=Actualités&type=RSS",
+      "date_ajout": "2026-11-27",
+      "date_maj": "2026-11-27",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-E9D3D313F7",
+      "titre": "Public consultation by AMLA on the draft Regulatory Technical Standards (RTSs) for the functioning of AML/CFT supervisory colleges in the financial and non-financial sectors",
+      "date_publication": "2026-11-24",
+      "autorite": "CSSF",
+      "type_acte": null,
+      "domaines": [
+        "LCB-FT"
+      ],
+      "perimetre": [
+        "Luxembourg"
+      ],
+      "resume_court": "AMLA",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.cssf.lu/en/Document/public-consultation-by-amla-on-the-draft-regulatory-technical-standards-rtss-for-the-functioning-of-aml-cft-supervisory-colleges-in-the-financial-and-non-financial-sectors/",
+      "date_ajout": "2026-11-27",
+      "date_maj": "2026-11-27",
+      "resume_valide": false,
+      "origine": "automatique"
+    },
+    {
+      "id": "AUTO-B381EFA4AA",
+      "titre": "Encadrement de l’univers d’investissement de l’assurance-vie et du plan d’épargne retraite",
+      "date_publication": "2026-11-24",
+      "autorite": "AMF",
+      "type_acte": null,
+      "domaines": [
+        "DDA"
+      ],
+      "perimetre": [
+        "France",
+        "COA",
+        "assurance-vie"
+      ],
+      "resume_court": "Gestion d'actifs OPCVM Encadrement de l’univers d’investissement de l’assurance-vie et du plan d’épargne retraite",
+      "explication_detaillee": "",
+      "analyse_impact_bci": "",
+      "priorite": "moyen",
+      "statut": "a_analyser",
+      "date_echeance": null,
+      "actions_a_mener": [],
+      "procedures_impactees": [],
+      "lien_source": "https://www.amf-france.org/fr/actualites-publications/actualites/encadrement-de-lunivers-dinvestissement-de-lassurance-vie-et-du-plan-depargne-retraite#xts=607212&at_medium=RSS feeds&at_campaign=Actualités&type=RSS",
+      "date_ajout": "2026-11-27",
+      "date_maj": "2026-11-27",
       "resume_valide": false,
       "origine": "automatique"
     }
